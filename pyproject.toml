@@ -1,0 +1,28 @@
+[project]
+name = "bayesian_inference"
+version = "0.1.0"
+description = "bayesian_inference"
+authors = [
+    { name = "MizuhoAOKI", email = "mizuhoaoki1998@gmail.com" }
+]
+dependencies = [
+    "notebook>=6.5.5",
+    "numpy>=1.25.2",
+    "matplotlib>=3.7.1",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bayesian_inference"]
