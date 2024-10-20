@@ -49,6 +49,9 @@ cd bayesian_inference
 rye run jupyter notebook notebooks/svgd.ipynb
 ```
 
+https://github.com/user-attachments/assets/d373dd99-f558-44a8-afba-6c9465c12075
+
+
 ### [Ex. 2] Bayesian Inference with Stein transport
 
 COMING SOON ...
